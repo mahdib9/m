@@ -208,6 +208,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+    "mahdib9",	
     "onservice",
     "inrealm",
     "ingroup",
@@ -243,7 +244,7 @@ function create_config( )
     "filterword",
     "lock_join"
     },
-    sudo_users = {142314165},--Sudo users
+    sudo_users = {165562299},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
